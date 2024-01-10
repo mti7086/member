@@ -89,7 +89,7 @@ function getUserData() {
    <h1>회원 조회 결과</h1>
    <table>
       <tr>
-         <th>아이디</th><th>이름</th><th>출생년도</th><th>지역</th><th>극번</th>
+         <th>아이디</th><th>이름</th><th>출생연도</th><th>지역</th><th>극번</th>
          <th>전화번호</th><th>키</th><th>가입일</th><th>수정</th><th>삭제</th>
       </tr>
 
