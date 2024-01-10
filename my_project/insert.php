@@ -97,7 +97,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <label for="name">이름:</label>
       <input type="text" name="name" required>
 
-      <label for="birthYear">출생년도:</label>
+      <label for="birthYear">출생연도:</label>
       <input type="text" name="birthYear" required>
 
       <label for="addr">지역:</label>
