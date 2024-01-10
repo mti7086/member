@@ -90,7 +90,7 @@ mysqli_close($con);
       <label for="name">이름:</label>
       <input type="text" name="name" value="<?php echo $name; ?>">
 
-      <label for="birthYear">출생년도:</label>
+      <label for="birthYear">출생연도:</label>
       <input type="text" name="birthYear" value="<?php echo $birthYear; ?>">
 
       <label for="addr">지역:</label>
