@@ -33,7 +33,7 @@ function fetchAllRows($result) {
     return $rows;
 }
 
-// main.php: 회원 조회 기능
+// 회원 조회 기능
 function getUserData() {
     $con = connectDB();
     $sql = "SELECT * FROM userTBL";
@@ -94,7 +94,7 @@ function getUserData() {
       </tr>
 
        <?php
-         // main.php: 회원 조회 결과 출력
+         // 회원 조회 결과 출력
          $userRows = getUserData();
          foreach ($userRows as $row) {
             echo "<tr>";
