@@ -1,0 +1,1 @@
+Slow Query Log 상태: ON<br>Table: userTBL, Type: const, Possible Keys: PRIMARY,idx_newUserID,idx_userID<br>현재 연결된 스레드 수: 1<br>
