@@ -4,7 +4,7 @@ $dbPassword = '1234';
 $dbName = 'sqlDB';
 
 function connectDB() {
-    $con = mysqli_connect("localhost", "root", "1234", "sqlDB");
+    $con = mysqli_connect("localhost", "$dbUser", "$dbPassword", "$dbName");
     if (!$con) {
         die("MySQL 접속 실패: " . mysqli_connect_error());
     }
